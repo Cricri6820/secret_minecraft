@@ -9,9 +9,6 @@
 /* --- STYLES DE BASE POUR LE TEXTE ET LES PRINCIPAUX ÉLÉMENTS --- */
 
 /* Page */
-html {
-	font-size: 100%; /* Voir -> Note 1 à la fin de la feuille de styles. */
-}
 body {
 	margin: 0;
 	padding: 10px 20px; /* Note -> 2 */
@@ -55,6 +52,7 @@ li {
 p {
 	margin: .75em 0;
 }
+
 li p, blockquote p {
 	margin: .5em 0;
 }
@@ -189,6 +187,23 @@ pre strong {
 #o {
 	font-style: italic;
 }
+
+#contenu p {
+	animation-duration: 0.5s;
+	animation-name: slidein;
+	animation-iteration-count: 1;
+}
+
+@keyframes slidein {
+	from {
+	  margin-left:100%;
+	}
+	
+	to {
+	  margin-left:0%;
+	}
+}
+
 /* --- NOTES ---
 
 1.	Ce "font-size: 100%" est normalement inutile. On l'utilise uniquement

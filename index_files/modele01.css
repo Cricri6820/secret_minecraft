@@ -16,7 +16,7 @@
 
 /* Général */
 body {
-	color: #F0E39E;
+	color: #000000;
 	background: #550000; /* Voir -> Note 1 ci-dessous */
 }
 a {
@@ -31,7 +31,21 @@ strong {
 
 /* En-tête */
 #entete {
-	background: #4422ff;
+		background-color: red;
+		animation-name: example;
+		animation-duration: 20s;
+		animation-timing-function: linear;
+		animation-iteration-count: infinite;
+	  }
+	  
+	  @keyframes example {
+		0%   {background-color:red;}
+		18%  {background-color:yellow;}
+		33%  {background-color:green;}
+		50%  {background-color:cyan;}
+		67%  {background-color:blue;}
+		83%  {background-color:purple;}
+		100% {background-color:red;}
 }
 
 /* Navigation */
@@ -39,7 +53,13 @@ strong {
 	background: #181A12;
 }
 #navigation a {
-	color: #FF6533;
+	color: mediumblue;
+	font-size: 16px;
+	transition-duration: 500ms;
+}
+#navigation a:hover, #navigation a:focus {
+	color: crimson;
+	font-size: 17px;
 }
 #navigation a:hover, #navigation a:focus {
 	background: #000000;
