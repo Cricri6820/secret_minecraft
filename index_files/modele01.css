@@ -62,13 +62,15 @@ strong {
 	font-size: 17px;
 }
 #navigation a:hover, #navigation a:focus {
-	background: #000000;
+	background: rgba(0, 0, 0, 0.2);
 }
 
 /* Contenu principal */
 #contenu {
 	color: #363B29;
-	background: #cbd888;
+	background: url("fond1.jfif");
+	background-repeat: repeat;
+	background-attachment: fixed;
 }
 #contenu a {
 	color: #332510;
