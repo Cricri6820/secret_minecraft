@@ -127,52 +127,52 @@ pre strong {
 
 /* styles personalisé */
 
-#c0 {
+.c0 {
 	color: #000000;
 }
-#c1 {
-	color: #0000a0;
+.c1 {
+	color: #000090;
 }
-#c2 {
-	color: #008000;
+.c2 {
+	color: #007000;
 }
-#c3 {
-	color: #008080;
+.c3 {
+	color: #007878;
 }
-#c4 {
-	color: #a00000;
+.c4 {
+	color: #900000;
 }
-#c5 {
-	color: #8000b0;
+.c5 {
+	color: #7000b0;
 }
-#c6 {
+.c6 {
 	color: #f08000;
 }
-#c7 {
+.c7 {
 	color: #b0b0b0;
 }
-#c8 {
+.c8 {
 	color: #505050;
 }
-#c9 {
+.c9 {
 	color: #3030ff;
 }
-#ca {
-	color: #00ff00;
+.ca {
+	color: #20ff20;
 }
-#cb {
+.cb {
 	color: #00e0e0;
 }
-#cc {
+.cc {
 	color: #ff4040;
 }
-#cd {
-	color: #ff40ff;
+.cd {
+	color: #ff50ff;
 }
-#ce {
-	color: #ffff00;
+.ce {
+	color: #eeee00;
 }
-#cf {
+.cf {
 	color: #ffffff;
 }
 #l {
@@ -188,7 +188,7 @@ pre strong {
 	font-style: italic;
 }
 
-#contenu p {
+#contenu p, #contenu a {
 	animation-duration: 0.5s;
 	animation-name: slidein;
 	animation-iteration-count: 1;
